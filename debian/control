@@ -1,0 +1,19 @@
+Source: greenboot-failing-unit
+Section: admin
+Priority: optional
+Maintainer: ssk-wh <fanpengcheng@uniontech.com>
+Build-Depends:
+ debhelper (>= 10),
+ debhelper-compat (= 10),
+Standards-Version: 4.5.0
+Homepage: hno
+Vcs-Browser: no
+Vcs-Git: no
+Rules-Requires-Root: no
+
+Package: greenboot-failing-unit
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: None
